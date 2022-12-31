@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Fraunces:opsz,wght@9..144,200;9..144,400;9..144,700&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+/* body {
+  height: 100vh;
+  width: 100vw;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bluegreen: hsl(179, 81%, 29%);
+  --darkgreyblue: hsl(215, 19%, 25%);
+  --peach: hsl(25, 94%, 86%);
+  --gray: hsl(215, 5%, 54%);
+  --white: hsl(43, 78%, 98%);
+  --mainfont: "Fraunces", serif;
+  --linkfont: "Barlow", sans-serif;
+}
+
+.parent-container {
+  font-family: var(--mainfont);
+  width: 100%;
+  max-width: 144rem;
+  height: 359.5rem;
+  border: 2px dotted purple;
+  margin: 0 auto;
+  padding: 4rem 3.9rem;
+}
+
+.app {
+  font-family: var(--mainfont);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+.btn {
+  width: 21.7rem;
+  height: 5.6rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-btn {
+  background: var(--bluegreen);
+}
+
+.main-btn:hover {
+  opacity: 75%;
+}
+
+.disabled {
+  background: var(--gray);
+}
+
+@media screen and (max-width: 750px) {
+  .parent-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .parent-container {
+    width: 100%;
+    padding: 3.2rem 2.4rem;
+  }
+}

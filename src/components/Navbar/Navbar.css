@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px dotted green; */
+  height: 2.6rem;
+  margin-bottom: 5.3rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width:28.3rem; //Figma Spec */
+  width: 31.3rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.92px;
+  color: var(--gray);
+  font-weight: 700;
+  font-family: var(--linkfont);
+}
+
+.mobile-menu-div {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .nav-logo {
+    width: 14rem;
+    height: 1.662rem;
+  }
+  .nav-links {
+    display: none;
+  }
+  .mobile-menu-div {
+    display: block;
+  }
+}
