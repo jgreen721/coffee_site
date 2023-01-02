@@ -28,8 +28,9 @@ html {
   font-family: var(--mainfont);
   width: 100%;
   max-width: 144rem;
-  height: 359.5rem;
-  border: 2px dotted purple;
+  /* height: 359.5rem; //figma spec */
+  height: 352.5rem;
+  /* border: 2px dotted purple; */
   margin: 0 auto;
   padding: 4rem 3.9rem;
 }

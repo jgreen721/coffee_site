@@ -1,5 +1,5 @@
 import React from 'react'
-import {Hero,Collections, ChooseUs} from "./components"
+import {Hero,Collections, ChooseUs,Works} from "./components"
 import "./Home.css"
 
 const Home = () => {
@@ -8,6 +8,7 @@ const Home = () => {
       <Hero/>
       <Collections/>
       <ChooseUs/>
+      <Works/>
     </div>
   )
 }
