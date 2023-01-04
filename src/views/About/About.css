@@ -1,0 +1,43 @@
+/*About */
+
+.about-hero-img {
+  position: relative;
+  height: 45rem;
+  width: 128rem;
+}
+
+.about-hero {
+  position: relative;
+}
+
+.about-card {
+  position: absolute;
+  z-index: 5;
+  width: 44.5rem;
+  height: 17.6rem;
+  left: 8.5rem;
+  top: 13.7rem;
+  color: var(--white);
+}
+
+.about-h1 {
+  margin-bottom: 2.4rem;
+}
+
+.about-blurb {
+  font-weight: 300;
+}
+.about-hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+}
+
+/*Committment */
+
+@media screen and (max-width: 750px) {
+}
+
+@media screen and (max-width: 450px) {
+}

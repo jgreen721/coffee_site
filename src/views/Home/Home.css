@@ -233,7 +233,7 @@
 
 .works-list {
   display: flex;
-  height: 35.5rem;
+  height: 36.8rem;
   margin-bottom: 6.4rem;
 }
 
@@ -381,6 +381,40 @@
     width: 34.4rem;
     text-align: start;
   }
+
+  .works-container {
+    border: 2px solid red;
+    width: 68.9rem;
+  }
+
+  .how-h3 {
+    margin-bottom: 4rem;
+  }
+
+  .work-card {
+    width: 22.3rem;
+    height: 36.8rem;
+    border: 2px solid red;
+    margin: 0;
+  }
+
+  .works-meter {
+    width: 49.7rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .work-h1 {
+    margin-bottom: 4.2rem;
+  }
+
+  .work-title {
+    margin-bottom: 3rem;
+    font-size: 2.8rem;
+  }
+
+  .work-blurb {
+    line-height: 2.25rem;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -496,5 +530,25 @@
     text-align: center;
     width: 21.2rem;
     /* height: 13.1rem; */
+  }
+
+  .works-container {
+    height: 111.6rem;
+    width: 32.7rem;
+    text-align: center;
+  }
+
+  .works-meter {
+    display: none;
+  }
+
+  .works-list {
+    flex-direction: column;
+    height: 75rem;
+  }
+
+  .work-card {
+    width: 100%;
+    height: 25.2rem;
   }
 }

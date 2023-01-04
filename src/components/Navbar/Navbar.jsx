@@ -1,8 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Link} from "react-router-dom"
+import MobileMenu from "../MobileMenu/MobileMenu"
 import "./Navbar.css"
 
 const Navbar = () => {
+    const [showMobile, setShowMobile] = useState(false)
+
   return (
     <nav className="navbar">
         <img className="nav-logo" src="./assets/shared/desktop/logo.svg" alt="logo" />
@@ -19,8 +22,10 @@ const Navbar = () => {
                 </li>
             </ul>
             <div className="mobile-menu-div">
-                <img src="./assets/shared/mobile/icon-hamburger.svg" alt="" />
+                <img onClick={()=>setShowMobile(!showMobile)} className="burger" src="./assets/shared/mobile/icon-hamburger.svg" alt="" />
+                <MobileMenu showMobile={showMobile}/>
             </div>
+
         </div>
     </nav>
   )

@@ -1,9 +1,12 @@
 import React from 'react'
+import {Hero} from "./components"
 import "./About.css"
 
 const About = () => {
   return (
-    <div className="">About</div>
+    <div className="about-page">
+      <Hero/>
+    </div>
   )
 }
 
